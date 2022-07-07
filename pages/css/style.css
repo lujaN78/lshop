@@ -1,0 +1,54 @@
+h1 { 
+color:rgb(181, 34, 181);
+    
+}
+
+
+header h2{
+    color:rgb(81, 157, 5)
+}
+
+input{
+    border-color: rgb(31, 218, 143);
+}
+
+h5{
+    color:rgb(25, 13, 137)
+}
+
+
+h2{
+    color:brown
+}
+
+p{
+    color: rgb(55, 10, 74);
+}
+
+section ul{
+    color:goldenrod
+}
+
+h4{
+    color:blue
+}
+
+ h4{
+    color:rgb(30, 152, 152)
+}
+
+footer h4{
+    color: rgb(91, 31, 147);
+}
+
+main{
+    color:black
+}
+
+#seccion-id{
+    background-color:rgb(160, 34, 164) ;
+}
+
+section ol{
+    color:rgb(225, 12, 12);
+}
