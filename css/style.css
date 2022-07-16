@@ -23,7 +23,7 @@ grid-area: body;
     background-image: linear-gradient(to top, rgb(198, 239, 11), rgb(54, 183, 230));
 }
 
-.transform p{
+.transform h3 p{
     width: 200px;
     height: 30px;
     background-color: rgb(190, 126, 42);
@@ -42,15 +42,33 @@ grid-area: body;
 
 h1 { 
 color:rgb(181, 34, 181);
+padding: 20px;
 }
 
 
+.grid li {
+    background-color: greenyellow;
+    width: 30%;
+    height: 170px;
+    font-style: oblique;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 100px;
+    grid-template-rows: repeat(3, 100px);
+    justify-items: center;
+
+}
+
 header h2{
-    color:rgb(81, 157, 5)
+    color:rgb(107, 189, 25)
 }
 
 input{
     border-color: rgb(31, 218, 143);
+}
+
+footer h2{
+    color: rgb(74, 74, 141);
+    margin: 40%;
 }
 
 h5{
@@ -86,7 +104,15 @@ main{
     color:black
 }
 
-
+.contact_form{
+    width: 400px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 15px;
+    padding-top: 40px;
+    background-color: rgb(224, 48, 169);
+    padding-left: 30px;
+}
 
 section ol{
     color:rgb(225, 12, 12);
